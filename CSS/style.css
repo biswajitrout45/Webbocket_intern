@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.head{
+    text-align: center;
+    color: burlywood;
+    background-color: aqua;
+}
+.body{
+    margin-top: 20px;
+    color:chocolate;
+    font-size: 20px;
+    text-align: center;
+}

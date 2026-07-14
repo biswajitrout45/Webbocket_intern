@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:400px;
+    width:500px;
+    background-color: chocolate;
+    color:aquamarine;
+    padding:30px;
+    border:5px dashed black;
+    margin:50px;
+}

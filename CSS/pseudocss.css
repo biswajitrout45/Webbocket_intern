@@ -1,0 +1,42 @@
+.button{
+    background-color: aqua;
+    color:black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: blueviolet;
+    color:antiquewhite;
+}
+.button:active{
+    background-color: blue;
+    color:white;
+}
+.input{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    cursor: pointer;
+}
+.input:focus{
+    background-color: darkblue;
+    color:antiquewhite;
+    width:200px;
+}
+.p1::first-letter{
+    color:chocolate;
+    font-size:50px;
+}
+.p1::first-line{
+    color:black;
+    font-size:20px;
+
+}
+.p1::after{
+    content:"Hiiiii";
+    color:indianred;
+    font-size:30px;
+}
+.p1::before{
+    content:"Hello";
+    color:rgb(84, 89, 222);
+    font-size:30px;
+}

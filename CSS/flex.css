@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height:500px;
+    background-color: burlywood;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: start;
+    align-items: center;
+    align-items: end;
+
+    gap:20px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

@@ -28,6 +28,7 @@ form h1{
     width: 90%;
     height: 30px;
     border-radius: 5px;
+    border:none;
 }
 .half{
     margin-left: 20px;
@@ -35,6 +36,7 @@ form h1{
     width: 42.5%;
     height: 30px;
     border-radius: 5px;
+    border:none;
 }
 .button{
     margin:20px 42.5%;

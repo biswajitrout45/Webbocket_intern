@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../CSS/navbar.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <h2>Mylogo</h2>
-        </div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                  <h2>Mylogo</h2>
+            </div>
+            
+        <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="fas fa-bars menu-icons"></i>
+                <i class="fas fa-times close-icons"></i>
+            </label>
+
         <ul class="navigation">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about us">About US</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li class="nav-action"><button class="button mobile-button">Contact Us</button></li>
         </ul>
-        <button class="button">Contact Us</button>
+        <button class="button desktop-button">Contact Us</button>
     </nav>
+    </header>
 </body>
 </html>

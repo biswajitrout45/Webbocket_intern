@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../CSS/Studentform.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <!-- Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="9876543210"><br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" max="60"><br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="sports" name="hobby" value="Sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music" name="hobby" value="Music">
+        <label for="music">Music</label>
+
+        <br><br>
+
+        <!-- Country -->
+        <label for="country">Country:</label><br>
+
+        <select id="country" name="country">
+            <option value="">Select Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Japan</option>
+        </select>
+
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+
+        <textarea id="address" name="address" rows="5" cols="30" placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+        <!-- Upload File -->
+        <label for="file">Upload Resume:</label><br>
+
+        <input type="file" id="file" name="resume">
+
+        <br><br>
+
+        <!-- Favorite Color -->
+        <label for="color">Favorite Color:</label><br>
+
+        <input type="color" id="color" name="color">
+
+        <br><br>
+
+        <!-- Range -->
+        <label for="range">Skill Level:</label><br>
+
+        <input type="range" id="range" name="skill" min="0" max="100">
+
+        <br><br>
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Clear">
+
+    </form>
+</div>
+</body>
+</html>

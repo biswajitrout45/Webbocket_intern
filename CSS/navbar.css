@@ -26,6 +26,10 @@
     font-size: 20px;
     text-decoration: none;
     color:aliceblue;
+    font-weight: bold;
+}
+.navigation li a:hover{
+    color:cadetblue;
 }
 .button{
     margin-right:40px;
@@ -33,4 +37,99 @@
     border-radius: 30px;
     background: linear-gradient(135deg, #6bc6c9 0%, #764ba2 100%);
     border: none;
+}
+
+
+
+#check{
+    display: none;
+}
+.menu-icons{
+    display: none;
+
+}
+.close-icons{
+    display: none;
+}
+
+/* Responsive: mobile layout and hamburger toggle for screens <= 768px */
+@media (max-width: 768px) {
+    .navbar{
+        padding: 10px 16px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    /* show menu icon */
+    .menu-icons{
+        display: block;
+        color: aliceblue;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    /* hide close icon by default */
+    .close-icons{
+        display: none;
+        color: aliceblue;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    /* hide the navigation by default and make it a vertical menu */
+    .navigation{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        transform: translateX(-120%);
+        transition: transform 0.28s ease-in-out;
+        z-index: 50;
+        padding: 12px 0;
+    }
+    .navigation li{
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .navigation li a{
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        color: aliceblue;
+    }
+
+    /* hide desktop button on small screens; use mobile button inside the nav list */
+    .desktop-button{ display: none; }
+    .mobile-button{ display: none; }
+
+    /* show mobile button when menu is opened */
+    #check:checked ~ .navigation .mobile-button{
+        display: block;
+        width: calc(100% - 32px);
+        margin: 8px 0;
+        padding: 12px 0;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #6bc6c9 0%, #764ba2 100%);
+        color: #fff;
+        font-weight: 700;
+        border: none;
+    }
+
+    /* When checkbox is checked show menu (checkbox + general sibling) */
+    #check:checked ~ .navigation{
+        transform: translateY(0);
+    }
+
+    /* toggle icons inside the label */
+    #check:checked ~ label .menu-icons{ display: none; }
+    #check:checked ~ label .close-icons{ display: block; }
+
+    /* make sure the input remains hidden but functional */
+    #check{ display: none; }
 }

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #3a42b1;
+}
+.logo {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navelement{
+    list-style: none;
+    display: flex;
+}
+.navelement li {
+    margin: 0 15px;
+}
+.navelement a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.button {
+    display: flex;
+    gap: 20px;
+}
+.button button{
+    color: #3a42b1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login {
+    background-color:rgb(187, 155, 73);
+    color: #3a42b1;
+}
+.signup {
+    background-color: #8083b0;
+    color: white;
+}

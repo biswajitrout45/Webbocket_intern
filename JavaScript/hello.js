@@ -43,3 +43,22 @@ console.log(typeof r)
 let s=BigInt(1234567890123456789012345678901234567890)
 console.log(s)
 console.log(typeof s)
+
+
+
+//object
+
+let obj={
+    name:"Biswajit",
+    age:20
+
+}
+console.log(obj)
+
+//function
+
+function add(a,b){
+    console.log(a+b)
+}
+
+add(5,7)

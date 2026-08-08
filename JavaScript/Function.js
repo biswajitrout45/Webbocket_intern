@@ -11,7 +11,7 @@ const multiply=()=>{
 }
 multiply()
 
-//Anonymous fnction
+//Anonymous function
 
 const substraction = function(){
     console.log(10-2)

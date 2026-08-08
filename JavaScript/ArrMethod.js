@@ -39,4 +39,28 @@ let arr=[10,50,40,30,20]
 //     console.log(element)
 // })
 
-//
+//map method
+
+let arr4=arr.map(element=>{
+    return element*2
+})
+console.log(arr4)
+
+
+//filter method
+
+let arr5=arr.filter(element=>{
+    return element>30
+})
+console.log(arr5)
+
+//reduce method
+let arr6=arr.reduce((sum,element)=> sum+=element,0)
+console.log(arr6)
+
+//sort method
+let element=[10,40,12,7,50,2,85,43,100]
+let Ascending=element.sort((a,b)=>a-b)
+console.log(Ascending)
+let Descending=element.sort((a,b)=>b-a)
+console.log(Descending)

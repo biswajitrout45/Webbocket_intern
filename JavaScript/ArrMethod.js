@@ -20,10 +20,10 @@ let arr=[10,50,40,30,20]
 // let arr2=arr.slice(1,3)
 // console.log(arr2)
 
-//splice method
-let arr3=arr.splice(1,3,100)
-console.log(arr3)
-console.log(arr)
+// //splice method
+// let arr3=arr.splice(1,3,100)
+// console.log(arr3)
+// console.log(arr)
 
 // //reverse method
 // console.log(arr.reverse())
@@ -39,3 +39,4 @@ console.log(arr)
 //     console.log(element)
 // })
 
+//

@@ -1,0 +1,42 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9cc0ff;
+    object-fit: cover;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.p{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+}
+.btn{
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #0056b3;
+}

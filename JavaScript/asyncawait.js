@@ -37,3 +37,18 @@
 //     console.log(a-b)
 // }
 // sub(10,5)
+
+
+//Destructuring
+
+const marks = [20,40,12,15]
+
+const [a,b,c,d] = marks
+console.log(a,b,c,d)
+
+const person = {fname:"John",
+     lname:"Doe",
+      age:25}
+
+const {fname,lname,age} = person
+console.log(fname,lname,age)

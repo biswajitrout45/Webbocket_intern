@@ -1,0 +1,3 @@
+export default function Toolbar({ search, setSearch, filter, setFilter, statuses, placeholder = 'Search...' }) {
+  return <div className="toolbar"><label className="search-box"><span>⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={placeholder} /><kbd>⌘ K</kbd></label><label className="filter-select"><span>☷</span><select value={filter} onChange={(event) => setFilter(event.target.value)}><option>All status</option>{statuses.map((status) => <option key={status}>{status}</option>)}</select><b>⌄</b></label><button className="filter-button" onClick={() => { setSearch(''); setFilter('All status') }}>↺ <span>Reset</span></button></div>
+}

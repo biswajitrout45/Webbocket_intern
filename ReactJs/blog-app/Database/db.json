@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "title": "Double standards in US law: No Russian oil for others, exception for own uranium imports",
+      "content": "The new US sanctions law targeting Russian oil importers is designed to squeeze Moscow's revenues amid its war in Ukraine. But it also ensures that the US can continue to import from Russia a material that is crucial for its nuclear power industry.",
+      "id": "4ami54iPPt4"
+    },
+    {
+      "title": "before Himachal polls",
+      "content": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu has described the agreement on the proposed 422-MW Kishau multipurpose dam project as a “milestone” for the state, saying his government has protected the state’s interests by ensuring that it would not bear any financial burden for the Rs 15,624-crore project.",
+      "id": "vWSa9N-4yTc"
+    },
+    {
+      "title": "Graphs, Data, Perspectives | Why the US Fed hiked rates, and what to make of its decision",
+      "content": "The Federal Reserve (or Fed), which controls monetary policy in the US, has decided to raise the Federal Funds Rate (FFR) by 25 basis points (one basis point is one-hundredth of a percentage point).",
+      "id": "cYw54WrPUSo"
+    },
+    {
+      "title": "UP polls to youth unrest: Why BJP is treading with caution over delimitation",
+      "content": "With the Uttar Pradesh Assembly elections barely five months away, the BJP seems to be getting increasingly circumspect about the timing of its proposed delimitation exercise.\n\nA BJP section is in favour of pushing for expanding the Lok Sabha’s strength through delimitation after the UP polls, considering the high electoral stakes in the politically most crucial state and its possible impact on the party’s",
+      "id": "7IrcW4rgKJI"
+    },
+    {
+      "title": "UP polls to youth unrest: Why BJP is treading with caution over delimitation",
+      "content": "With the Uttar Pradesh Assembly elections barely five months away, the BJP seems to be getting increasingly circumspect about the timing of its proposed delimitation exercise.\n\nA BJP section is in favour of pushing for expanding the Lok Sabha’s strength through delimitation after the UP polls, considering the high electoral stakes in the politically most crucial state and its possible impact on the party’s",
+      "id": "7IrcW890rgKJI"
+    },
+    {
+      "title": "UP polls to youth unrest: Why BJP is treading with caution over delimitation",
+      "content": "With the Uttar Pradesh Assembly elections barely five months away, the BJP seems to be getting increasingly circumspect about the timing of its proposed delimitation exercise.\n\nA BJP section is in favour of pushing for expanding the Lok Sabha’s strength through delimitation after the UP polls, considering the high electoral stakes in the politically most crucial state and its possible impact on the party’s",
+      "id": "7IrgfcW4rgKJI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
